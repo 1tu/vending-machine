@@ -1,0 +1,26 @@
+@import './../../assets/sass/theme.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.button {
+  cursor: pointer;
+  height: $button-size;
+  width: $button-size;
+  border-radius: 10000px;
+  background-color: black;
+}
+
+.name {
+  margin: 0;
+  font-size: 11px;
+}
+
+.active {
+  background-color: white;
+}

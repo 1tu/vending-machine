@@ -1,0 +1,13 @@
+.machine {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+
+  background-color: red;
+  padding: 20px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+}

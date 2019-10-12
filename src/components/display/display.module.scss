@@ -1,0 +1,26 @@
+@import './../../assets/sass/theme.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aqua;
+}
+
+.image {
+  height: $cell-image;
+  width: $cell-image;
+  background-size: cover;
+}
+
+.name {
+  margin: 0;
+  font-size: 11px;
+}
+
+.count {
+  margin: 0;
+  font-size: 8px;
+}
